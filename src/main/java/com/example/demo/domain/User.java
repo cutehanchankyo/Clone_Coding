@@ -12,7 +12,6 @@ import java.util.Collection;
 @Entity @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 public class User {
 
     @Id
@@ -22,6 +21,6 @@ public class User {
     private String username;
     private String password;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY)
     private Collection<Role> roles = new ArrayList<>();
 }

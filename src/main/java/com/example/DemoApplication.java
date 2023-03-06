@@ -1,8 +1,9 @@
 package com.example;
 
 import com.example.demo.domain.Role;
+import com.example.demo.domain.User;
 import com.example.demo.service.UserService;
-import org.apache.catalina.User;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

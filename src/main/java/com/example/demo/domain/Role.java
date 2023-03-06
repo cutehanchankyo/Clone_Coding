@@ -14,7 +14,6 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
 public class Role {
 
     @Id
